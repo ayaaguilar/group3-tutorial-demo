@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/stylesheets/style.css" />
+  <script src="/javascripts/bootstrap.min.js" defer></script>
+  <script src="https://www.paypal.com/sdk/js?client-id=YOUR_CLIENT_ID&currency=USD"></script>
+</head>
+
+<body>
+  <!-- Shared Header -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="/images/Group3.jpg" alt="" width="100px
+        "="img-fluid logo">
+      </a>
+
+      {{!-- add div classes to make the links active (of home, shopping, contact etc) --}}
+      <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/shopping">Shopping</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    {{{body}}}
+  </main>
+
+</body>
+<footer class="">
+  <div class="bg-dark text-center text-white   p-3 mt-5">
+    <p>&copy; Group 3 | COMP2106</p>
+    <p>Members: Aayush, Shanaya, Sayaka</a></p>
+
+  </div>
+</footer>
+
+</html>

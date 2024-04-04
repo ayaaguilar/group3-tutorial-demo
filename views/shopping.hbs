@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Group 3</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <!-- Your existing styles... -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #75808a;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1,
+    h2 {
+      color: #007bff;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #f8f9fa;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1,
+    h2 {
+      font-family: 'Cute Font', sans-serif;
+    }
+
+    /* Styling for item cards */
+    .item.card {
+      border: 1px solid black;
+      transition: border-color 0.3s;
+      text-decoration: none;
+      position: relative;
+      /* Added for positioning */
+    }
+
+    /* Hover effect for item cards */
+    .item.card:hover {
+      transition: all ease 0.6s;
+      justify-content: center;
+    }
+
+    /* Image styling */
+    .product-img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      /* Center the image */
+      max-height: 150px;
+      /* Adjust the maximum height */
+    }
+
+    /* Button styling */
+    .buy-now-btn {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      /* Added for hover effect */
+    }
+
+    /* Hover effect for the Buy Now button */
+    .buy-now-btn:hover {
+      background-color: #0056b3;
+      /* Change background color on hover */
+    }
+
+    /* Grid container and item styles */
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    .grid-item {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+      position: relative;
+      /* Added for stacking context */
+    }
+
+    .grid-item:hover {
+      transition: all ease 0.9s;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Shop your favourite product here</h1>
+  </header>
+  <div class="container mt-5">
+    <h1>Hi</h1>
+    <h2>This is the shopping page</h2>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container mt-4">
+    <div class="grid-container">
+      <!-- Item 1 -->
+      <div class="grid-item item card">
+        <img src="/images/Jersey1.jpg" alt="Product 1" class="product-img"><br><br>
+      </div>
+      <!-- Item 2 -->
+      <div class="grid-item item card">
+        <img src="/images/Jersey2.jpg" alt="Product 2" class="product-img"><br><br>
+      </div>
+      <!-- Item 3 -->
+      <div class="grid-item item card">
+        <img src="/images/Jersey3.jpg" alt="Product 3" class="product-img"><br><br>
+      </div>
+      <!-- Item 4 -->
+      <div class="grid-item item card">
+        <img src="/images/Jersey4.jpg" alt="Product 4" class="product-img"> <br><br>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
